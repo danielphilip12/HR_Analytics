@@ -11,3 +11,7 @@ Work in progress
 
 #### Page 2
 ![alt text](image-1.png)
+
+### Analysis
+
+**Business Question**: What are the leading factors 
