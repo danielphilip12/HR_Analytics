@@ -29,7 +29,7 @@ This dataset contains 1470 rows of data, with each row representing a single emp
 
 ## Exploratory Data Analysis
 
-The Jupyter Notebook contains futher analysis to help determine categorical groups for attributes such as monhtly income, total working years, etc. in order to better show the separation of these groups and their individual attrition rates. It was also used to help determine correlations between certain variables that may contribute to attrition. 
+The Jupyter Notebook contains futher analysis to help determine categorical groups for attributes such as monhtly income, total working years, etc. in order to better show the separation of these groups and their individual attrition rates. 
 
 ## Power BI Dashboard
 
@@ -40,9 +40,9 @@ The Jupyter Notebook contains futher analysis to help determine categorical grou
 - Attrition Rate: 16.12%
 - Men attrition more then Women, but only by a slight amount
 - Overtime has a large effect on attrition, doing so at a rate 3x higher than employees who did not work overtime
-- The most common attrition groups have a tenure of 2 or less years
+- Employees with less than two years at the company have some of the highest attrition rates, at 36.36% for employees with less than one year and 28.86% for employees with 1–2 years.
 - The highest attrition rate by role is Sales Representatives
-- Employees 35 and younger as well as older than 55 have the highest risk of attrition
+- Attrition rates are highest among younger employees, particularly employees ages 18–25.
 
 ### Page 2 — Attrition Factors
 
@@ -58,10 +58,15 @@ The Jupyter Notebook contains futher analysis to help determine categorical grou
 
 - As the number of total working years goes up, the attrition rate appears to go down.
 - We can see in the scatterplot that employees with less than 10 years of total working years attrition much more commonly, signified by the large cluster of red (attrition) points, compared to the more spread out points past the 10 year mark. 
+- Among employees ages 26–35, attrition falls from 24.69% for those with 0–5 years at the company to 9.38% for those with 11+ years.
 
 ## Key Findings
 
-1. Overtime employees have substantially higher attrition, at early 3x the frequency of non-overtime employees
-2. Attrition is highest among employees with lower total working experience, specifically, 10 years or less
-3. Sales Representatives have a much higher than normal attrition rate (nearly 2.5x higher)
-4. Early career professional (age 18-25) have much higher attrition rates than people who are mid/late career. 
+1. Overtime is strongly associated with attrition. Employees working overtime have a 30.53% attrition rate compared with 10.44% among employees who do not work overtime.
+2. Attrition is higher among less-experienced employees. Employees with 0–5 years of total working experience have a 28.80% attrition rate, compared with 7.73% among employees with 21+ years.
+3. Sales Representatives have substantially higher attrition than the company average. Their attrition rate is 39.76%, approximately 2.5× the overall rate of 16.12%.
+4. Early-career employees have particularly high attrition. Employees ages 18–25 have a 35.77% attrition rate, substantially above the company-wide rate of 16.12%.
+
+## Limitations
+
+This analysis identifies associations between employee characteristics and attrition within the dataset. The results should not be interpreted as causal relationships or as a predictive model of individual employee attrition.

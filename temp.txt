@@ -1,6 +1,0 @@
-This file is for writing out DAX methods easier. 
-
-Monthly Income Group = SWITCH(
-    TRUE(),
-    
-)
