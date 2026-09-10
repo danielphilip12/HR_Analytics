@@ -12,6 +12,9 @@ Work in progress
 #### Page 2
 ![alt text](image-1.png)
 
+#### Page 3
+![alt text](image-2.png)
+
 ### Analysis
 
-**Business Question**: What are the leading factors 
+**Business Question**: What are the leading factors for attrition
